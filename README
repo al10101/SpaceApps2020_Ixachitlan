@@ -14,8 +14,8 @@ All images from 1st to 6th were obtained from the NASA satelites (SW: 34, -125 &
 The 7th image was constructed manually with information reported by DOI:10.1038/s41598-019-50961-z, with white spots corresponding to pelagic ecosystems, and will be the output data.
 First, by running process_data.py the X (input) and y (output) data will be created. X will be a 18x40000 matrix, with each column corresponding to a different pixel from the input data; y will be a 1x40000 matrix, indicating wether that pixel has pelagic ecosystem or not.
 Those matrices will be saved in X.csv and y.csv files respectively.
-The rn.py code read both files and trains a classification neural network. The later consists has 500x500x100x1 neurons, distributed in 4 layers. 
-The final output will give a 1x40000 matrix qith the corresponding predictions.
+The rn.py code reads both files and trains a classification neural network. The later consists has 500x500x100x1 neurons, distributed in 4 layers. 
+The final output will give a 1x40000 matrix with the corresponding predictions.
 
 NOTES:
 - For a given prediction, the same kind of data must be given (chlorophyll, temperature, ocean currents, energy flux, height animalies and photosynthetically available radiation.
