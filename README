@@ -18,6 +18,6 @@ The rn.py code reads both files and trains a classification neural network. The 
 The final output will give a 1x40000 matrix with the corresponding predictions.
 
 NOTES:
-- For a given prediction, the same kind of data must be given (chlorophyll, temperature, ocean currents, energy flux, height animalies and photosynthetically available radiation.
+- For a given prediction, the same kind of data must be given (chlorophyll, temperature, ocean currents, energy flux, height animalies and photosynthetically available radiation).
 - All images must be 200x200 pixels.
 
