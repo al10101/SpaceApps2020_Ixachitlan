@@ -10,7 +10,7 @@ This repository contains 7 PNG files, 200x200 pixels each:
 6. photoAv_RESIZE.png
 7. dist5_RESIZE.png
 
-All images from 1st to 6th were obtained from the NASA satelites (SW: 34, -125 & NE: 37, -121) and will be the input data. 
+All images from 1st to 6th were obtained from the NASA satelites (SW: 34, -125 & NE: 37, -121) and will be the input data. All images were obtained from 2016 data.
 The 7th image was constructed manually with information reported by DOI:10.1038/s41598-019-50961-z, with white spots corresponding to pelagic ecosystems, and will be the output data.
 First, by running process_data.py the X (input) and y (output) data will be created. X will be a 18x40000 matrix, with each column corresponding to a different pixel from the input data; y will be a 1x40000 matrix, indicating wether that pixel has pelagic ecosystem or not.
 Those matrices will be saved in X.csv and y.csv files respectively.
